@@ -1,0 +1,23 @@
+<div class="content">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="login_box">
+                <h3>WELCOME!</h3>
+                    <p>Login to continue</p>
+                    <form class="home_form">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" placeholder="Input Name">
+                            <label name="uname" class="form-label">USERNAME</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" placeholder="Input Name">
+                            <label name="pass" class="form-label">PASSWORD</label>
+                        </div>
+                        <button class="btn btn-dark custom-btn" routerLink="/dashboard">LOGIN</button>
+                        <button class="btn btn-dark custom-btn" routerLink="/registration">REGISTER</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

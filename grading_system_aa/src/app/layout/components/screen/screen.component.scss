@@ -1,0 +1,10 @@
+#screen {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    top: 90px;
+    overflow-x: hidden;
+    z-index: 1;
+    padding: 40px;
+    justify-content: center;
+}
