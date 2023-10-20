@@ -1,5 +1,6 @@
 #screen {
     display: flex;
+    flex-direction: column;
     position: relative;
     max-width: 100%;
     top: 90px;
@@ -7,4 +8,21 @@
     z-index: 1;
     padding: 40px;
     justify-content: center;
+}
+
+.selection {
+    margin-bottom: 20px;
+    text-align: center;
+    .card {
+        padding: 20px 0;
+    }
+    svg {
+        height: 2em;
+    }
+    .card-title {
+        font-weight: bold;
+    }
+    .card-body {
+        text-align: left;
+    }
 }

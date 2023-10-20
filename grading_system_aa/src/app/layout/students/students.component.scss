@@ -1,0 +1,14 @@
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    .content {
+        position: relative;
+        top: 90px;
+        padding: 40px;
+        .row {
+            padding-bottom: 20px;
+        }
+    }
+}
+
