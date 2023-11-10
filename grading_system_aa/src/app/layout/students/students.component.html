@@ -1,94 +1,76 @@
 <div class="main">
-    <div class="bg"></div>
-    <div class="parallax_container">
-        <app-topnav></app-topnav>
-        <app-sidenav></app-sidenav>
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <table class="table table-striped">
-                        <thead>   
-                            <tr class="table-warning text-center">
-                            <th scope="col" colspan="4"><h4><span style="font-weight: bold;">ITCC1</span> BSIT 1-1 STUDENT LIST</h4></th>
-                            </tr>              
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Student Name</th>
-                            <th scope="col">Grade</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Mark Doe</td>
-                            <td>3</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>John Doe</td>
-                            <td>2.5</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td>James Doe</td>
-                            <td>1.75</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">4</th>
-                            <td>Benjamin Doe</td>
-                            <td>2</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">5</th>
-                            <td>Oliver Doe</td>
-                            <td>1.25</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                </div>
-                <div class="row">
-                    <table class="table table-striped">
-                        <thead>   
-                            <tr class="table-warning text-center">
-                            <th scope="col" colspan="4"><h4><span style="font-weight: bold;">ITCC2</span> BSIT 1-1 STUDENT LIST</h4></th>
-                            </tr>              
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Student Name</th>
-                            <th scope="col">Grade</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Mark Doe</td>
-                            <td>2</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>John Doe</td>
-                            <td>2.75</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td>James Doe</td>
-                            <td>1.25</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">4</th>
-                            <td>Benjamin Doe</td>
-                            <td>1.5</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">5</th>
-                            <td>Oliver Doe</td>
-                            <td>1</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                </div>
-            </div>
-        </div>
-    </div>  
+  <div class="bg"></div>
+  <div class="parallax_container">
+      <app-topnav></app-topnav>
+      <app-sidenav></app-sidenav>
+      <div class="content">
+          <div class="container">
+              <div class="row">
+                  <table class="table table-striped">
+                      <thead>   
+                          <tr class="table-warning text-center">
+                          <th scope="col" colspan="6"><h4><span style="font-weight: bold;">STUDENTS</span></h4></th>
+                          </tr>              
+                        <tr>
+                          <th scope="col">NAME</th>
+                          <th scope="col">GENDER</th>
+                          <th scope="col">AGE</th>
+                          <th scope="col">YEAR</th>
+                          <th scope="col">BLOCK</th>
+                          <th scope="col" class="text-center">ACTION</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1. John Doe</th>
+                          <td>M</td>
+                          <td>21</td>
+                          <td>2</td>
+                          <td>1</td>
+                          <td class="text-center">
+                            <a href="students" class="btn btn-success">ADD</a>
+                            <a href="students" class="btn btn-success">EDIT</a>
+                            <a href="students" class="btn btn-success">DELETE</a>
+                            <a href="students" class="btn btn-success">NEW</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2. Jose Rizal</th>
+                          <td>M</td>
+                          <td>20</td>
+                          <td>4</td>
+                          <td>1</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3. Andres Bonifacio</th>
+                          <td>M</td>
+                          <td>23</td>
+                          <td>4</td>
+                          <td>2</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4. Nene Dela Cruz</th>
+                          <td>F</td>
+                          <td>20</td>
+                          <td>2</td>
+                          <td>1</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5. Juan Dela Cruz</th>
+                          <td>M</td>
+                          <td>20</td>
+                          <td>2</td>
+                          <td>2</td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+          </div>
+      </div>
+  </div>  
 </div>
 <router-outlet></router-outlet>
